@@ -10,6 +10,7 @@ body {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .clock {
     width: 600px;
@@ -17,6 +18,23 @@ body {
     border: 30px solid rgb(219, 112, 147);
     border-radius: 50%;
     /* box-shadow: 20px 10px 30px rgb(8, 129, 241); */
+    position: relative;
+    margin-bottom: 50px;
+    box-shadow: 0px 2px 5px rgb(83, 75, 3);
+}
+
+.clock:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 119, 6);
+    position: absolute;
+    left: 50%;
+    top: -60px;
+    transform: translate(-50%, 0%);
+    border-radius: 30px 30px;
+    box-shadow: 0px 2px 5px rgb(83, 75, 3);
 }
 
 .clock-face {
@@ -25,6 +43,7 @@ body {
     height: 100%;
     border-radius: 50%;
     position: relative;
+    box-shadow: 0px -1px 5px rgb(83, 75, 3);
 }
 /* 圓心點 */
 .clock-face:after {
@@ -79,4 +98,22 @@ body {
     bottom: 50%;
     border-radius: 30px;
     transform: translate(-50%, 0%);
+}
+
+.displayTime {
+    font-size: 40px;
+    text-align: center;
+}
+.displayTime span {
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    line-height: 100px;
+    background-color: rgba(245, 245, 239, 0.5);
+    border: 10px solid black;
+    border-radius: 20px 20px;
+}
+
+.displayTime span:hover {
+    color: rgb(53, 90, 99);
 }
