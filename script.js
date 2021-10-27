@@ -32,8 +32,8 @@
     textTime();
     // 更新畫面:setInterVal、setTimeout、requestAnimationFrame
 
-    // setInterval(setClock, 1000);
-    // setInterval(textTime, 1000);
+    setInterval(setClock, 1000);
+    setInterval(textTime, 1000);
 })();
 
 //方法二
