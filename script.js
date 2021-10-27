@@ -2,7 +2,6 @@
     const second = document.querySelector('.second-hand');
     const min = document.querySelector('.min-hand');
     const hour = document.querySelector('.hour-hand');
-
     function setClock() {
         const date = new Date();
         //一秒轉6度=>360/60=6
@@ -31,7 +30,6 @@
     setClock(); //初始化
     textTime();
     // 更新畫面:setInterVal、setTimeout、requestAnimationFrame
-
     setInterval(setClock, 1000);
     setInterval(textTime, 1000);
 })();

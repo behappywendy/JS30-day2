@@ -78,8 +78,8 @@ body {
     content: '';
     display: block;
     width: 10px;
-    height: 40%;
-    background-color: #00bfff;
+    height: 20%;
+    background-color: #80dfff;
     position: absolute;
     left: 50%;
     bottom: 50%;
@@ -90,8 +90,8 @@ body {
     content: '';
     display: block;
     width: 15px;
-    height: 20%;
-    background-color: #80dfff;
+    height: 40%;
+    background-color: #00bfff;
     position: absolute;
     left: 50%;
     bottom: 50%;
