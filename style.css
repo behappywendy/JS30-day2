@@ -78,7 +78,7 @@ body {
     content: '';
     display: block;
     width: 10px;
-    height: 20%;
+    height: 40%;
     background-color: #80dfff;
     position: absolute;
     left: 50%;
@@ -90,7 +90,7 @@ body {
     content: '';
     display: block;
     width: 15px;
-    height: 40%;
+    height: 20%;
     background-color: #00bfff;
     position: absolute;
     left: 50%;

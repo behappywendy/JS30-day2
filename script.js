@@ -9,11 +9,11 @@
         //一分鐘轉6度=>360/60=6
         let minDeg = date.getMinutes() * 6 + (date.getSeconds() * 6) / 60;
         //一小時60度=>360/12=60
-        let hourDeg = date.getHours() * 60 + (date.getMinutes() * 30) / 60;
+        let hourDeg = date.getHours() * 30 + (date.getMinutes() * 30) / 60;
         second.style.transform = `rotate(${secondDeg}deg)`;
         min.style.transform = `rotate(${minDeg}deg)`;
-
         hour.style.transform = `rotate(${hourDeg})deg`;
+        console.log(hourDeg);
     }
 
     function textTime() {
